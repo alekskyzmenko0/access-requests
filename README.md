@@ -1,4 +1,11 @@
-# Access Requests System
+# Access Requests System  
+
+![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-38B2AC?logo=tailwindcss&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-4EA94B?logo=mongodb&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-Animations-FF69B4?logo=framer&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)
 
 A modern full-stack access request management platform for organizations and researchers.  
 Built with **Next.js 16**, **MongoDB Atlas**, **Tailwind CSS**, and **Framer Motion**.
