@@ -1,38 +1,48 @@
-# 🧩 Access Requests System
+# Access Requests System
 
-**Full-stack portal for managing user and researcher registration requests** — built with **Next.js, MongoDB, Tailwind CSS, and Framer Motion**.  
-Includes an admin panel for moderation, email notifications via SMTP, and a clean modern UI.
-
----
-
-## ✨ Features
-
-- 📝 Public registration forms (User / Researcher)
-- 🧑‍💼 Admin moderation dashboard
-- ✅ Approve / Reject requests with status tracking
-- 🔐 Secure password hashing (bcrypt)
-- 📧 Email notifications on approval/rejection
-- 🎨 Responsive modern design (Tailwind + Framer Motion)
-- 🌙 Light minimalistic UI with adaptive layout
+A modern full-stack access request management platform for organizations and researchers.  
+Built with **Next.js 16**, **MongoDB Atlas**, **Tailwind CSS**, and **Framer Motion**.
 
 ---
 
-## 🧠 Tech Stack
+## Overview
 
-| Category | Technologies |
-|-----------|---------------|
-| Frontend | Next.js 16 (App Router), TypeScript, Tailwind CSS, Framer Motion |
-| Backend | Next.js API Routes, Mongoose (MongoDB Atlas) |
-| Database | MongoDB Atlas |
-| Auth & Security | bcrypt password hashing |
-| Mail | Nodemailer (SMTP) |
-| Deployment | Vercel |
+**Access Requests System** is a full-featured application for managing and reviewing user access requests.  
+Users can submit registration forms and select their role (*user* or *researcher*).  
+Administrators can approve or reject requests with automatic email notifications.
 
 ---
 
-## 🚀 Getting Started
+## Features
 
-### 1️⃣ Clone the repository
+- User and researcher registration forms  
+- Admin dashboard for managing requests  
+- Approve or reject access requests  
+- Email notifications via SMTP  
+- Fully responsive, modern UI  
+- Built with Next.js 16 (App Router)  
+- Smooth animations powered by Framer Motion  
+
+---
+
+## Tech Stack
+
+| Category | Technology |
+|-----------|-------------|
+| Frontend | [Next.js 16](https://nextjs.org/) + [TypeScript](https://www.typescriptlang.org/) |
+| Styling | [Tailwind CSS](https://tailwindcss.com/) + [Framer Motion](https://www.framer.com/motion/) |
+| Backend | Next.js API Routes |
+| Database | [MongoDB Atlas](https://www.mongodb.com/atlas/database) |
+| Email | [Nodemailer](https://nodemailer.com/about/) |
+| Hosting | [Vercel](https://vercel.com/) / [Firebase Hosting](https://firebase.google.com/) |
+
+---
+
+## Installation & Setup
+
+Clone the repository and install dependencies:
+
 ```bash
-git clone https://github.com/<your-username>/access-requests.git
+git clone https://github.com/alekskyzmenko0/access-requests.git
 cd access-requests
+npm install
